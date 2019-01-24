@@ -1,6 +1,6 @@
 # BSP Azure Data Module
 
-- Member : [이지홍](github.com/jihongl), [이형원](), [손성은]()
+- Member : [이지홍](github.com/jihongl), [이형원](), [손성은](github.com/allmine123)
 - Contents
   - [TIL](#TIL)
   - [Projects](#Projects)

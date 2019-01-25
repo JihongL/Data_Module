@@ -13,7 +13,7 @@ Contents
 
 MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux), [Windows](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-windows)
 
-### Windows
+### Windows 준비
 
 - 준비사항
 

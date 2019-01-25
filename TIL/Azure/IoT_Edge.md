@@ -67,5 +67,9 @@ Portal에서 Container registry에 등록된 ML Module을 IoT Edge 장비에 배
 
    ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_04.png)
 
-5. d
+5. 우측에 나타나는 창에 원하는 모듈의 이름과 이미지 경로를 입력하고 저장
+
+   ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_05.png)
+
+6.  나머지 사항은 기본 옵션으로 진행하고 배포 수행
 

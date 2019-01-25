@@ -19,10 +19,14 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
 
   - [Window용 Docker 설치 후 Windows 컨테이너로 전환하기](https://docs.microsoft.com/ko-kr/virtualization/windowscontainers/quick-start/quick-start-windows-10)
 
+    - Edge런타임 설치 전에 Docker 엔진이 running 상태인지 확인하기
+
+      ![](images/windows_docker_running.jpg)
+
   - Windows 버전 확인
 
     - 지원되는 Windows 버전
-      - [2018년 10월 업데이트 (**빌드 17763**)](https://www.microsoft.com/ko-kr/software-download/windows10)이 적용된 Windows10 또는 IoT Core
+      - [2018년 10월 업데이트 (**빌드 17763**)](https://www.microsoft.com/ko-kr/software-download/windows10)가 적용된 Windows10 또는 IoT Core
       - Windows Server 2019
 
     - 빌드버전 확인하는 방법
@@ -37,7 +41,7 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
 
   - `시작 - Windows 기능 켜기/끄기` 에서 Hyper-V, Containers 기능에 체크되어 있는 지 확인
 
-    ![1548393137756](images/windows_feature.png)
+    ![](images/windows_feature.png)
 
 ### Ubuntu
 

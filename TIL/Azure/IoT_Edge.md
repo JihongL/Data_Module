@@ -2,10 +2,10 @@
 
 Contents
 
-- [Edge Deploy](#Edge_Deploy)
+- [Edge Deploy](#Edge-Deploy)
   - Ubuntu
   - Debian
-- [Machine Learning Module Deploy](#Machine_Learning_Module_Deploy)
+- [Machine Learning Module Deploy](#Machine-Learning-Module-Deploy)
 
 
 

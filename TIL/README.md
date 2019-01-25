@@ -10,7 +10,7 @@ Contents
 
 ### IoT
 
-- [IoT Edge](https://github.com/JihongL/Data_Module/blob/master/TIL/Azure/IoT_Edge.md)
+- [IoT Edge](Azure/IoT_Edge.md)
 
 ### Machine Learning
 

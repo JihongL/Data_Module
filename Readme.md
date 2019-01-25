@@ -8,6 +8,6 @@
 ## TIL
 
 - Azure
-  - [IoT Edge](https://github.com/JihongL/Data_Module/blob/master/TIL/Azure/IoT_Edge.md)
+  - [IoT Edge](TIL/Azure/IoT_Edge.md)
 
 ## Projects

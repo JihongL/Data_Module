@@ -47,3 +47,25 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
 
 ## Machine Learning Module Deploy
 
+### Portal에서 Module 배포
+
+Portal에서 Container registry에 등록된 ML Module을 IoT Edge 장비에 배포합니다.
+
+1. IoT Edge가 등록된 IoT Hub로 이동, 모듈을 탑재하고자 하는 Edge Device 선택
+
+   ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_01.png)
+
+2. 상단 메뉴에서 `Set Modules` 선택하여 모듈 설정으로 이동
+
+   ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_02.png)
+
+3. `Container Registry Settings`에 배포하고자 하는 모듈이 있는 ACR의 정보 입력
+
+   ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_03.png)
+
+4. `Deployment Module`에서 `+`버튼을 누르고, `IoT Edge Module` 선택
+
+   ![](C:\Users\jihong.lee\Documents\OneDrive - 한국호스트웨이\Data Module\TIL\Azure\images\iot_edge_ml_module_04.png)
+
+5. d
+

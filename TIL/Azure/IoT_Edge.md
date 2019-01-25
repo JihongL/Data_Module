@@ -73,7 +73,17 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
   sudo apt-get upgrade
   ```
 
+- Moby 설치에 부족한 파일 설치 및 적용
 
+  ```sh
+  # Download file
+  wget "http://ftp.se.debian.org/debian/pool/main/o/openssl/libssl1.0.0_1.0.2l-1~bpo8+1_amd64.deb"
+  
+  # Install file
+  sudo dpkg -i libssl1.0.0_1.0.2l-1~bpo8+1_amd64.deb
+  ```
+
+  
 
 ## Machine Learning Module Deploy
 

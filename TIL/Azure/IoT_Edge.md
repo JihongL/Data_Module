@@ -24,19 +24,20 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
     - 지원되는 Windows 버전
       - [2018년 10월 업데이트 (**빌드 17763**)](https://www.microsoft.com/ko-kr/software-download/windows10)이 적용된 Windows10 또는 IoT Core
       - Windows Server 2019
+
     - 빌드버전 확인하는 방법
 
-    	1. `윈도우키 + R` 실행창 켜기
+      1. `윈도우키 + R` 실행창 켜기
 
-    	2. 실행창에 `winver` 입력
+      2. 실행창에 `winver` 입력
 
-    	3. 빌드넘버가 **17763**인지 확인하기 
+      3. 빌드넘버가 **17763**인지 확인하기 
 
-       	![1548393598849](C:\Users\seongeun.son\AppData\Roaming\Typora\typora-user-images\1548393598849.png)
+       	![](images/windows_build_info.jpg)
 
   - `시작 - Windows 기능 켜기/끄기` 에서 Hyper-V, Containers 기능에 체크되어 있는 지 확인
 
-    ![1548393137756](C:\Users\seongeun.son\AppData\Roaming\Typora\typora-user-images\1548393137756.png)
+    ![1548393137756](images/windows_feature.png)
 
 ### Ubuntu
 

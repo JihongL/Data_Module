@@ -69,8 +69,8 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
   curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
   sudo cp ./microsoft.gpg /etc/apt/trusted.gpg.d/
   
-  # Perform apt upgrade
-  sudo apt-get upgrade
+  # Perform apt update
+  sudo apt-get update
   ```
 
 - Moby 설치에 부족한 파일 설치 및 적용
@@ -81,6 +81,12 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
   
   # Install file
   sudo dpkg -i libssl1.0.0_1.0.2l-1~bpo8+1_amd64.deb
+  
+  # Moby install
+  sudo apt-get install moby-engine
+  
+  # Moby CLI install
+  sudo apt-get install moby-cli
   ```
 
   

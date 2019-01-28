@@ -3,6 +3,7 @@
 Contents
 
 - [Edge Deploy](#Edge-Deploy)
+  - Windows
   - Ubuntu
   - Debian
 - [Machine Learning Module Deploy](#Machine-Learning-Module-Deploy)

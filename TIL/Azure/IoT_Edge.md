@@ -3,9 +3,10 @@
 Contents
 
 - [Edge Deploy](#Edge-Deploy)
-  - Windows
-  - Ubuntu
-  - Debian
+  - [Windows](#Edge-Windows)
+  - [Ubuntu](#Edge-Ubuntu)
+  - [Debian](#Edge-Debian)
+  - [Trouble Shooting](#Edge-Trouble-Shooting)
 - [Machine Learning Module Deploy](#Machine-Learning-Module-Deploy)
 
 
@@ -14,7 +15,7 @@ Contents
 
 MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux), [Windows](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-windows)
 
-### Windows
+### Edge Windows
 
 - 준비사항
 
@@ -44,9 +45,11 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
 
     ![](images/windows_feature.png)
 
-### Ubuntu
+### Edge Ubuntu
 
-### Debian
+- MS docs 참고
+
+### Edge Debian
 
 - curl 등 Ubuntu에서 기본으로 지원하는 기능이 없어 설치해야 함
 
@@ -90,7 +93,14 @@ MS Docs : [Linux](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install
   sudo apt-get install moby-cli
   ```
 
-  
+
+### Edge Trouble Shooting
+
+- ```sh
+  Get https://registry-1.docker.io/v2/microsoft/dotnet/manifests/2.1-sdk: unauthorized: incorrect username or password
+  ```
+
+  Docker Desktop에 Sign in 되어있다면 Sign out 혹은 Azure 계정과 동일한지 확인
 
 ## Machine Learning Module Deploy
 
